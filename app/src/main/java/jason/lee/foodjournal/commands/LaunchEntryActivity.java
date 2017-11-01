@@ -4,12 +4,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import jason.lee.foodjournal.EntryActivity;
+
 /**
  * Created by Jason on 10/31/2017.
  */
 
 public class LaunchEntryActivity {
-    private static final String DATE_KEY = "date";
+    public static final String DATE_KEY = "date";
     private Activity activity;
     private int month, day, year;
 
